@@ -1,0 +1,118 @@
+{
+  "userSays": [
+    {
+      "id": "225bfcb6-0cd2-4d09-9e79-bdfd4be3152c",
+      "data": [
+        {
+          "text": "my name is "
+        },
+        {
+          "text": "aswanth",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aacab889-968f-42b4-8b85-dc0dd1640c7c",
+      "data": [
+        {
+          "text": "i am "
+        },
+        {
+          "text": "aswin",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "682beceb-3e36-40cf-98b9-e2fbf51c6fc4",
+      "data": [
+        {
+          "text": "i am "
+        },
+        {
+          "text": "rahul",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dcdd4347-93e2-44eb-ab5a-fafa5f5bc5e3",
+      "data": [
+        {
+          "text": "i am "
+        },
+        {
+          "text": "nithin",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b46ff84-6384-494a-852f-ce04e15bf7da",
+      "data": [
+        {
+          "text": "my name is "
+        },
+        {
+          "text": "aswin",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0a65d3e9-7b42-48d5-83c1-10ae99d76e9f",
+  "name": "name",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "yes",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Lets Begin The Event $given-name Shall We?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

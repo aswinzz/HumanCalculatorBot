@@ -1,0 +1,43 @@
+{
+  "userSays": [
+    {
+      "id": "d9bc59b7-742e-475f-882a-1a0c564e7005",
+      "data": [
+        {
+          "text": "D-TamilNadu"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "86f5e043-4639-40c3-b768-803dbcee2f54",
+  "name": "2optionD",
+  "auto": true,
+  "contexts": [
+    "answer2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "answer2",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry,Your Answer Is Wrong...."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

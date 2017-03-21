@@ -1,0 +1,53 @@
+{
+  "userSays": [
+    {
+      "id": "49b7a397-103f-4d44-814b-ab4e0b8a4a2a",
+      "data": [
+        {
+          "text": "A-Kerala"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5809a6c4-ba24-42ad-9ab1-fb044448227f",
+  "name": "2optionA",
+  "auto": true,
+  "contexts": [
+    "answer2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "answer2",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Your Answer Is Wrong!"
+        },
+        {
+          "title": "2-\u003eWhich Is India\u0027s Capital?",
+          "replies": [
+            "A-Kerala",
+            "B-Delhi",
+            "C-Andhra",
+            "D-TamilNadu"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,97 @@
+{
+  "userSays": [
+    {
+      "id": "3b38cd8b-7044-41ab-b278-c0d8d4ed9451",
+      "data": [
+        {
+          "text": "start"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "20b7b051-a369-48ad-98af-dcb80278bf81",
+      "data": [
+        {
+          "text": "begin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f107805-28f8-43ed-adbe-5b41976cd63d",
+      "data": [
+        {
+          "text": "lets begin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f898ab3-e972-4d07-868d-d08c2615b6a7",
+      "data": [
+        {
+          "text": "ofcourse"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "af0f3f78-52b1-4f7b-ac79-014dd1e8a4dd",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1b84aaf2-76c4-47c1-a41e-514bcb55d575",
+  "name": "Q1",
+  "auto": true,
+  "contexts": [
+    "yes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "answer1",
+          "lifespan": 5
+        },
+        {
+          "name": "yes",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "1-\u003eWho Is The Prime Minister Of India",
+          "replies": [
+            "A-Narendra Modi",
+            "B-Manmohan Singh",
+            "C-Aswin VB",
+            "D-Someone"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

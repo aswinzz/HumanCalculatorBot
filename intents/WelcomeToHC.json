@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "9a454fd1-1a9a-4aac-be53-9899a3fbe784",
+      "data": [
+        {
+          "text": "namaste",
+          "alias": "Welcome",
+          "meta": "@Welcome",
+          "userDefined": false
+        },
+        {
+          "text": " human calculator"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "965f0e2f-3bb7-4028-ae39-2e60a89cf311",
+      "data": [
+        {
+          "text": "hi",
+          "alias": "Welcome",
+          "meta": "@Welcome",
+          "userDefined": false
+        },
+        {
+          "text": " human calculator"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c8842a57-4638-4cc8-b348-11dd147ee95a",
+  "name": "WelcomeToHC",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Welcome",
+          "name": "Welcome",
+          "value": "$Welcome",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Welcome to Human Calculator v2.0. What Is Your Name?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

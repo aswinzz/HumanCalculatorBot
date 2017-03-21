@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "25bda241-e3c0-456e-ab6e-2edc0c2b8d49",
+      "data": [
+        {
+          "text": "A-Narendra Modi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dd333699-6c92-46e9-abc1-f44f08d126fb",
+  "name": "1optionA",
+  "auto": true,
+  "contexts": [
+    "answer1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "answer1",
+          "lifespan": 1
+        },
+        {
+          "name": "nextq",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Your Answer Is Absolutely Correct\nShall We Move To The Next Question?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

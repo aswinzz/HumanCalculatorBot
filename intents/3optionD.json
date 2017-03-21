@@ -1,0 +1,53 @@
+{
+  "userSays": [
+    {
+      "id": "4bb393a2-1c60-45a3-b3f6-47894c99c727",
+      "data": [
+        {
+          "text": "D-Thriftshop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "002f2572-7c06-4828-a598-5b8e9ac0f0a5",
+  "name": "3optionD",
+  "auto": true,
+  "contexts": [
+    "answer3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "answer3",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Wrong,Try Again"
+        },
+        {
+          "title": "3-\u003eWhich Album Is The Most Selled In March 2017",
+          "replies": [
+            "A-Take Me Home",
+            "B-Divide",
+            "C-Starboy",
+            "D-Thriftshop"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

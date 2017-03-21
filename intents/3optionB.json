@@ -1,0 +1,43 @@
+{
+  "userSays": [
+    {
+      "id": "4995417c-0b06-45de-b953-e0afa1fabcef",
+      "data": [
+        {
+          "text": "B-Divide"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fdffaa3d-e6cb-4e24-bfac-abc07ba632a9",
+  "name": "3optionB",
+  "auto": true,
+  "contexts": [
+    "answer3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "answer3",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Your Answer Is Pakka Correct"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

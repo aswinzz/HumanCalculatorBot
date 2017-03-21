@@ -1,0 +1,53 @@
+{
+  "userSays": [
+    {
+      "id": "c02eac25-027d-46b1-af2c-f83811f7e1bf",
+      "data": [
+        {
+          "text": "A-Take Me Home"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ef146213-6bfc-417b-b334-57a44e507655",
+  "name": "3optionA",
+  "auto": true,
+  "contexts": [
+    "answer3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "answer3",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry It Is Wrong -_-"
+        },
+        {
+          "title": "3-\u003eWhich Album Is The Most Selled In March 2017",
+          "replies": [
+            "A-Take Me Home",
+            "B-Divide",
+            "C-Starboy",
+            "D-Thriftshop"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

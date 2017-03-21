@@ -1,0 +1,39 @@
+{
+  "id": "8f9ebb90-8939-44d7-8560-d95490fbb8df",
+  "name": "Welcome",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "hi",
+      "synonyms": [
+        "hi"
+      ]
+    },
+    {
+      "value": "hello",
+      "synonyms": [
+        "hello"
+      ]
+    },
+    {
+      "value": "namaste",
+      "synonyms": [
+        "namaste"
+      ]
+    },
+    {
+      "value": "hey",
+      "synonyms": [
+        "hey"
+      ]
+    },
+    {
+      "value": "hlo",
+      "synonyms": [
+        "hlo"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

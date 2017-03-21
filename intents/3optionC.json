@@ -1,0 +1,53 @@
+{
+  "userSays": [
+    {
+      "id": "250fc29c-f8c2-424a-9c0a-fa90134f9274",
+      "data": [
+        {
+          "text": "C-Starboy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "23628d90-acb7-446b-a70b-82d0ba67cef6",
+  "name": "3optionC",
+  "auto": true,
+  "contexts": [
+    "answer3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "answer3",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry Galath Answer! -_-"
+        },
+        {
+          "title": "3-\u003eWhich Album Is The Most Selled In March 2017",
+          "replies": [
+            "A-Take Me Home",
+            "B-Divide",
+            "C-Starboy",
+            "D-Thriftshop"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

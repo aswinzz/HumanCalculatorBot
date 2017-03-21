@@ -1,0 +1,67 @@
+{
+  "userSays": [
+    {
+      "id": "51bf4a49-dc2f-44ab-9b74-e714cb70f70d",
+      "data": [
+        {
+          "text": "ofcourse"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5fca8a2a-3b51-4390-ab5c-eafe5b4ff370",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "999e1b3e-5a07-4a02-9e06-310f6dc30d59",
+  "name": "q2",
+  "auto": true,
+  "contexts": [
+    "nextq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "nextq",
+          "lifespan": 5
+        },
+        {
+          "name": "answer2",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "2-\u003eWhich Is India\u0027s Capital?",
+          "replies": [
+            "A-Kerala",
+            "B-Delhi",
+            "C-Andhra",
+            "D-TamilNadu"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

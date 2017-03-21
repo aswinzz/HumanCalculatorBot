@@ -1,0 +1,59 @@
+{
+  "userSays": [
+    {
+      "id": "282b1345-3664-4946-a9dd-26af21c0ef93",
+      "data": [
+        {
+          "text": "D-"
+        },
+        {
+          "text": "Obama",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "ce697e36-6bb8-4176-8fb0-b66ee217923f",
+  "name": "1optionD",
+  "auto": true,
+  "contexts": [
+    "answer1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "answer1",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry Your Aswer Is Absolutely Wrong!!!!"
+        },
+        {
+          "title": "1-\u003eWho Is The Prime Minister Of India",
+          "replies": [
+            "A-Narendra Modi",
+            "B-Manmohan Singh",
+            "C-Aswin VB",
+            "D-Obama"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,58 @@
+{
+  "userSays": [
+    {
+      "id": "a1075a4c-3036-4f3b-a877-dd7c1c474d35",
+      "data": [
+        {
+          "text": "B-Manmohan "
+        },
+        {
+          "text": "Singh",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "29b81558-4f5c-47da-b46f-c495a508d360",
+  "name": "1optionB",
+  "auto": true,
+  "contexts": [
+    "answer1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "answer1",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry Your Answer Is Wrong!"
+        },
+        {
+          "title": "1-\u003eWho Is The Prime Minister Of India",
+          "replies": [
+            "A-Narendra Modi",
+            "B-Manmohan Singh",
+            "C-Aswin VB",
+            "D-Obama"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

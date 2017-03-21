@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "7886b34d-e468-40c4-9c36-6453a7a90d4a",
+      "data": [
+        {
+          "text": "yeah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85a629d4-47b5-4ec7-9763-1d534a39a452",
+      "data": [
+        {
+          "text": "ofcourse"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb51eec4-1a16-4dc8-a04b-f0fa0d9a8a54",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5117cb0f-0c97-4fa1-8e07-abe862ed70fe",
+  "name": "q3",
+  "auto": true,
+  "contexts": [
+    "yes3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "answer3",
+          "lifespan": 5
+        },
+        {
+          "name": "yes3",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "3-\u003eWhich Album Is The Most Selled In March 2017",
+          "replies": [
+            "A-Take Me Home",
+            "B-Divide",
+            "C-Starboy",
+            "D-Thriftshop"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
